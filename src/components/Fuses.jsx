@@ -3,7 +3,6 @@ import { useNavigate, Link } from "react-router-dom";
 import { AuthContext } from "../contexts/authContext";
 import firebase from "../firebase";
 import logoImage from "../assets/jflogo.png";
-import { sendMessage, fetchMessages } from "../modules/MessageFunctions";
 
 const Fuses = () => {
   const { user } = useContext(AuthContext);
